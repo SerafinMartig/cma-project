@@ -58,7 +58,7 @@ Nadja?
 
 ## R concepts
 <!-- Which R concepts, functions, packages will you mainly use. What additional spatial analysis methods will you be using? -->
-Packages: tidyr, dplyr, ggplot, lubridate, sf, readr.
+Packages: tidyr, dplyr, ggplot, lubridate, sf, readr, xml2.
 Wird hier andere Programme wie QGis oder ArcGis gemeint?
 
 
