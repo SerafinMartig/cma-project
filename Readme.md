@@ -13,8 +13,7 @@ Analysis Geo 880**
 | Semester:      | FS23                                     |
 |:---------------|:---------------------------------------- |
 | **Data:**      | What type of data are you focussing on? Bewegungsdaten von menschlicher Aktivität  |
-| **Title:**     | "Predicting Transportation Choices Based on Road Conditions and Weather: An Analysis of Individual Travel Behavior"
-Deutsch: "Vorhersage der Verkehrsmittelwahl anhand von Strassenbedingungen und Wetter: Eine Analyse des individuellen Reiseverhaltens"               |
+| **Title:**     | "Predicting Transportation Choices Based on Road Conditions and Weather: An Analysis of Individual Travel Behavior" / "Vorhersage der Verkehrsmittelwahl anhand von Strassenbedingungen und Wetter: Eine Analyse des individuellen Reiseverhaltens"   
 | **Student 1:** | Pfister Nadja                        |
 | **Student 2:** | Martig Serafin                         |
 
