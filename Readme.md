@@ -23,6 +23,8 @@ Deutsch: "Vorhersage der Verkehrsmittelwahl anhand von Strassenbedingungen und W
 
 ## Research Questions
 <!-- (50-60 words) -->
+Hier findest du weitere Ideen für unsere Fragestellung. 
+
 1. Routenanalyse
     Häufig genutzte Routen: Identifizieren und visualisieren der am häufigsten genutzten Routen.
     Effizienz der Routen: Analysieren der Effizienz der gewählten Routen hinsichtlich der zurückgelegten Strecke und der benötigten Zeit.
