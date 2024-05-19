@@ -48,12 +48,10 @@ Hier findest du weitere Ideen für unsere Fragestellung.
     Clusteranalyse: Verwenden von Clustering-Methoden, um Bereiche mit hoher Bewegungsdichte zu identifizieren.
     Hotspot-Analyse: Identifizieren und visualisieren von Hotspots der Aktivitäten.
 
-7. Anomalieerkennung
-
-    Ungewöhnliche Aktivitäten: Erkennen Sie ungewöhnliche Bewegungsmuster oder Aktivitäten, die von den normalen Verhaltensweisen abweichen.
+7. Ungewöhnliche Aktivitäten erkennen (Anomalie): anhand von ungewöhnlichen Bewegungsmuster oder Aktivitäten, die von den normalen Verhaltensweisen abweichen.
 
 8. Zeitliche Sequenzanalyse
-    Sequenzielle Muster: Analysieren Sie die zeitliche Abfolge der besuchten Orte, um Muster und Präferenzen zu erkennen.
+    Sequenzielle Muster: Analysieren der zeitliche Abfolge der besuchten Orte, um Muster und Präferenzen zu erkennen.
 
 9. Integration von anderen Datenquellen
     Wetterdaten: Verknüpfen der Bewegungsdaten mit Wetterdaten, um den Einfluss des Wetters auf die Bewegung zu analysieren.
@@ -63,7 +61,7 @@ Hier findest du weitere Ideen für unsere Fragestellung.
 ## Results / products
 <!-- What do you expect, anticipate? -->
 
-Weiter könnten wir ein Modell erstellen / Wahrscheilnlichkeiten berechnen bei welcher Termperatur, bei welchem wetter oder auf welcher Strassen eine Person welches Verkehrsmittel benutzt. 
+Weiter könnten wir ein Modell erstellen / Wahrscheinlichkeiten berechnen bei welcher Termperatur, bei welchem wetter oder auf welcher Strassen eine Person welches Verkehrsmittel benutzt. 
 
 ## Data
 <!-- What data will you use? 
