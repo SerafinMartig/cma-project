@@ -23,6 +23,41 @@ Deutsch: "Vorhersage der Verkehrsmittelwahl anhand von Strassenbedingungen und W
 
 ## Research Questions
 <!-- (50-60 words) -->
+1. Routenanalyse
+    Häufig genutzte Routen: Identifizieren und visualisieren der am häufigsten genutzten Routen.
+    Effizienz der Routen: Analysieren der Effizienz der gewählten Routen hinsichtlich der zurückgelegten Strecke und der benötigten Zeit.
+   
+2. Geschwindigkeitsanalyse
+    Durchschnittsgeschwindigkeit: Berechnen und visualisieren der durchschnittlichen Geschwindigkeit über verschiedene Zeitabschnitte.
+    Geschwindigkeit im Verlauf: Erstellen von Diagrammen zur Geschwindigkeitsveränderung über eine Route oder einen Zeitraum hinweg zeigen.
+   
+3. Zeit- und Datumsanalyse
+    Aktivitätsmuster: Untersuchen zu welchen Zeiten am häufigsten Bewegungen stattfinden (z.B. morgens, abends, werktags, am Wochenende).
+    Dauer der Aktivitäten: Analysieren der Dauer der verschiedenen Aktivitäten (Bewegung vs. Pause).
+
+4. Geografische Analyse
+    Häufige Aufenthaltsorte: Identifizierung von Orten, an denen sich die Person häufig aufhält.
+    Gebietsabdeckung: Visualisieren der geografischen Abdeckung der Bewegungen (z.B. welche Stadtteile oder Regionen am häufigsten besucht werden).
+
+5. Vergleichende Analysen
+    Vergleich von Zeiträumen: Vergleich von Bewegungsmuster zwischen verschiedenen Zeiträumen (z.B. vor und nach bestimmten Ereignissen).
+    Vergleich zwischen Personen: Vergleichen von Bewegungsdaten verschiedener Personen.
+
+6. Clustering und Hotspot-Analyse
+    Clusteranalyse: Verwenden von Clustering-Methoden, um Bereiche mit hoher Bewegungsdichte zu identifizieren.
+    Hotspot-Analyse: Identifizieren und visualisieren von Hotspots der Aktivitäten.
+
+7. Anomalieerkennung
+
+    Ungewöhnliche Aktivitäten: Erkennen Sie ungewöhnliche Bewegungsmuster oder Aktivitäten, die von den normalen Verhaltensweisen abweichen.
+
+8. Zeitliche Sequenzanalyse
+    Sequenzielle Muster: Analysieren Sie die zeitliche Abfolge der besuchten Orte, um Muster und Präferenzen zu erkennen.
+
+9. Integration von anderen Datenquellen
+    Wetterdaten: Verknüpfen der Bewegungsdaten mit Wetterdaten, um den Einfluss des Wetters auf die Bewegung zu analysieren.
+    Verkehrsdaten: Kombinieren der Bewegungsdaten mit Verkehrsdaten, um den Einfluss des Verkehrs auf die Reisezeiten zu untersuchen.
+
 
 ## Results / products
 <!-- What do you expect, anticipate? -->
