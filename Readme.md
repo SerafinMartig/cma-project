@@ -23,6 +23,11 @@ Analysis Geo 880**
 ## Research Questions
 <!-- (50-60 words) -->
 Hier findest du weitere Ideen für unsere Fragestellung. 
+Bewegungsradius 
+
+weiterführende Idee:
+Wetterdaten 
+
 
 1. Routenanalyse
     Häufig genutzte Routen: Identifizieren und visualisieren der am häufigsten genutzten Routen.
