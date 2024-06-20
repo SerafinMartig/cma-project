@@ -1,0 +1,435 @@
+{
+  "timelineObjects": [{
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 468669239,
+        "longitudeE7": 75462051,
+        "sourceInfo": {
+          "deviceTag": -1104337312
+        }
+      },
+      "endLocation": {
+        "latitudeE7": 468296945,
+        "longitudeE7": 75685556,
+        "sourceInfo": {
+          "deviceTag": -1104337312
+        }
+      },
+      "duration": {
+        "startTimestamp": "2018-09-02T12:02:16.639Z",
+        "endTimestamp": "2018-09-02T12:21:48.842Z"
+      },
+      "distance": 4475,
+      "activityType": "IN_PASSENGER_VEHICLE",
+      "confidence": "MEDIUM",
+      "activities": [{
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 84.88625106374424
+      }, {
+        "activityType": "CYCLING",
+        "probability": 4.701644320038316
+      }, {
+        "activityType": "MOTORCYCLING",
+        "probability": 4.662669585750739
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 468669471,
+          "lngE7": 75461926
+        }, {
+          "latE7": 468425559,
+          "lngE7": 75765771
+        }, {
+          "latE7": 468297004,
+          "lngE7": 75686006
+        }],
+        "source": "INFERRED",
+        "distanceMeters": 6890.758690269503
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "parkingEvent": {
+        "location": {
+          "latitudeE7": 468189926,
+          "longitudeE7": 75741748,
+          "accuracyMetres": 70
+        },
+        "method": "END_OF_ACTIVITY_SEGMENT",
+        "locationSource": "UNKNOWN",
+        "timestamp": "2018-09-02T12:27:13.007Z"
+      }
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 468295068,
+        "longitudeE7": 75686682,
+        "sourceInfo": {
+          "deviceTag": -1104337312
+        }
+      },
+      "endLocation": {
+        "latitudeE7": 468190275,
+        "longitudeE7": 75741450,
+        "sourceInfo": {
+          "deviceTag": -1104337312
+        }
+      },
+      "duration": {
+        "startTimestamp": "2018-09-02T12:21:54.753Z",
+        "endTimestamp": "2018-09-02T12:27:13.007Z"
+      },
+      "distance": 1246,
+      "activityType": "CYCLING",
+      "confidence": "HIGH",
+      "activities": [{
+        "activityType": "CYCLING",
+        "probability": 94.37325595832714
+      }, {
+        "activityType": "SKIING",
+        "probability": 1.7887907726601187
+      }, {
+        "activityType": "WALKING",
+        "probability": 1.7016068889943539
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 468295097,
+          "lngE7": 75686821
+        }, {
+          "latE7": 468189964,
+          "lngE7": 75741639
+        }],
+        "source": "BACKFILLED",
+        "distanceMeters": 1413.3421192731169,
+        "travelMode": "BICYCLE",
+        "confidence": 1.0
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 471539644,
+        "longitudeE7": 72860317,
+        "sourceInfo": {
+          "deviceTag": -1104337312
+        }
+      },
+      "endLocation": {
+        "latitudeE7": 471476153,
+        "longitudeE7": 72677879,
+        "sourceInfo": {
+          "deviceTag": -1104337312
+        }
+      },
+      "duration": {
+        "startTimestamp": "2018-09-05T15:25:19Z",
+        "endTimestamp": "2018-09-05T15:47:36.189Z"
+      },
+      "distance": 1549,
+      "activityType": "IN_PASSENGER_VEHICLE",
+      "confidence": "LOW",
+      "activities": [{
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 55.46804716104236
+      }, {
+        "activityType": "CYCLING",
+        "probability": 16.83692615399792
+      }, {
+        "activityType": "IN_BUS",
+        "probability": 16.45015119470968
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 471539726,
+          "lngE7": 72860293
+        }, {
+          "latE7": 471465263,
+          "lngE7": 72729582
+        }, {
+          "latE7": 471475448,
+          "lngE7": 72678136
+        }],
+        "source": "INFERRED",
+        "distanceMeters": 2098.585221117414
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 471575399,
+        "longitudeE7": 72926350,
+        "sourceInfo": {
+          "deviceTag": -1104337312
+        }
+      },
+      "endLocation": {
+        "latitudeE7": 468983948,
+        "longitudeE7": 75069020,
+        "sourceInfo": {
+          "deviceTag": -1104337312
+        }
+      },
+      "duration": {
+        "startTimestamp": "2018-09-07T14:33:33.714Z",
+        "endTimestamp": "2018-09-08T06:50:48.863Z"
+      },
+      "distance": 35627,
+      "activityType": "IN_PASSENGER_VEHICLE",
+      "confidence": "MEDIUM",
+      "activities": [{
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 76.5680365268038
+      }, {
+        "activityType": "CYCLING",
+        "probability": 8.74875393381566
+      }, {
+        "activityType": "WALKING",
+        "probability": 7.963721846436557
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 471574935,
+          "lngE7": 72926921
+        }, {
+          "latE7": 470111770,
+          "lngE7": 74967846
+        }, {
+          "latE7": 468983650,
+          "lngE7": 75069270
+        }],
+        "source": "INFERRED",
+        "distanceMeters": 54660.12289414018
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "parkingEvent": {
+        "location": {
+          "latitudeE7": 468983683,
+          "longitudeE7": 75069267,
+          "accuracyMetres": 110
+        },
+        "method": "END_OF_ACTIVITY_SEGMENT",
+        "locationSource": "UNKNOWN",
+        "timestamp": "2018-09-08T06:52:55.249Z"
+      }
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 468982430,
+        "longitudeE7": 75071244,
+        "placeId": "ChIJ52UXaC42jkcRdHVTYB9zDmg",
+        "address": "Eigerweg 6, 3123 Belp, Schweiz",
+        "sourceInfo": {
+          "deviceTag": -1104337312
+        },
+        "locationConfidence": 99.30733
+      },
+      "duration": {
+        "startTimestamp": "2018-09-08T06:50:54.848Z",
+        "endTimestamp": "2018-09-08T07:56:19.679Z"
+      },
+      "placeConfidence": "HIGH_CONFIDENCE",
+      "centerLatE7": 468984105,
+      "centerLngE7": 75069905,
+      "visitConfidence": 87,
+      "otherCandidateLocations": [{
+        "latitudeE7": 468964180,
+        "longitudeE7": 75053890,
+        "placeId": "ChIJB7YXhS42jkcRlzE60Ustdnk",
+        "address": "3123 Belp, Schweiz",
+        "name": "Belp, Eissel",
+        "locationConfidence": 0.47052506
+      }, {
+        "latitudeE7": 468995472,
+        "longitudeE7": 75039845,
+        "placeId": "ChIJs9MNki02jkcRphuadNBf3lo",
+        "address": "Aemmenmattstrasse 12, 3123 Belp, Schweiz",
+        "name": "Serbisch-Orthodoxe Kirchengemeinde Bern",
+        "locationConfidence": 0.056795307
+      }, {
+        "latitudeE7": 469001503,
+        "longitudeE7": 75041275,
+        "placeId": "ChIJFYGj9C02jkcRvTYVOcdSUC8",
+        "address": "Aemmenmattstrasse 16, 3123 Belp, Schweiz",
+        "name": "Interlabor Belp AG",
+        "locationConfidence": 0.042899553
+      }, {
+        "latitudeE7": 468983520,
+        "longitudeE7": 75058370,
+        "placeId": "ChIJKf3TcC42jkcRHrSCY_tnDXg",
+        "address": "Sägetstrasse 23d, 3123 Belp, Schweiz",
+        "name": "Star Photos",
+        "locationConfidence": 0.040940143
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 90,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 466681724,
+        "longitudeE7": 77194894,
+        "sourceInfo": {
+          "deviceTag": -1104337312
+        }
+      },
+      "endLocation": {
+        "latitudeE7": 466509580,
+        "longitudeE7": 77059810,
+        "sourceInfo": {
+          "deviceTag": -1104337312
+        }
+      },
+      "duration": {
+        "startTimestamp": "2018-09-15T15:46:48.178Z",
+        "endTimestamp": "2018-09-15T17:24:18.253Z"
+      },
+      "distance": 2174,
+      "activityType": "IN_PASSENGER_VEHICLE",
+      "confidence": "MEDIUM",
+      "activities": [{
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 75.59927724778079
+      }, {
+        "activityType": "CYCLING",
+        "probability": 9.97253530955781
+      }, {
+        "activityType": "WALKING",
+        "probability": 8.90550996323247
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 466680374,
+          "lngE7": 77194175
+        }, {
+          "latE7": 466585502,
+          "lngE7": 76965193
+        }, {
+          "latE7": 466509094,
+          "lngE7": 77065849
+        }],
+        "source": "INFERRED",
+        "distanceMeters": 11522.95133410153
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "parkingEvent": {
+        "location": {
+          "latitudeE7": 466509499,
+          "longitudeE7": 77059747,
+          "accuracyMetres": 156
+        },
+        "method": "END_OF_ACTIVITY_SEGMENT",
+        "locationSource": "UNKNOWN",
+        "timestamp": "2018-09-15T17:24:21Z"
+      }
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 466508919,
+        "longitudeE7": 77062485,
+        "placeId": "ChIJEYQE_9Cuj0cRGe29jQSc7tA",
+        "address": "Aeschiriedstrasse 7, 3703 Aeschi bei Spiez, Bern, Schweiz",
+        "semanticType": "TYPE_SEARCHED_ADDRESS",
+        "sourceInfo": {
+          "deviceTag": -1104337312
+        },
+        "locationConfidence": 53.416428
+      },
+      "duration": {
+        "startTimestamp": "2018-09-15T17:24:21Z",
+        "endTimestamp": "2018-09-15T18:45:09.975Z"
+      },
+      "placeConfidence": "HIGH_CONFIDENCE",
+      "centerLatE7": 466508050,
+      "centerLngE7": 77060950,
+      "visitConfidence": 90,
+      "otherCandidateLocations": [{
+        "latitudeE7": 466505695,
+        "longitudeE7": 77064177,
+        "placeId": "ChIJlQl8AtGuj0cRpjLqw8TcKds",
+        "address": "Aeschiriedstrasse 5, 3703 Aeschi bei Spiez, Schweiz",
+        "name": "Jugend-und Ferienhaus Aeschi",
+        "locationConfidence": 44.128788
+      }, {
+        "latitudeE7": 466506037,
+        "longitudeE7": 77064169,
+        "placeId": "ChIJkxZ8AtGuj0cR1NOR2-FRVhE",
+        "address": "Aeschiriedstrasse 5, 3703 Aeschi bei Spiez, Schweiz",
+        "name": "Evangelisches Gemeinschaftswerk",
+        "locationConfidence": 1.0160036
+      }, {
+        "latitudeE7": 466514940,
+        "longitudeE7": 77027640,
+        "placeId": "ChIJmaXC0M-uj0cRvxexb1rMKTU",
+        "address": "3703 Aeschi bei Spiez, Schweiz",
+        "name": "Aeschi b. Spiez, Friedegg",
+        "locationConfidence": 0.28865254
+      }, {
+        "latitudeE7": 466500150,
+        "longitudeE7": 77042963,
+        "placeId": "ChIJIZHRBNGuj0cR1jxryjKrmA4",
+        "address": "Sandgrubenstrasse, 3703 Aeschi bei Spiez, Schweiz",
+        "name": "Mountain Ranch Heymann",
+        "locationConfidence": 0.22207233
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 52,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 466506765,
+        "longitudeE7": 77062220,
+        "sourceInfo": {
+          "deviceTag": -1104337312
+        }
+      },
+      "endLocation": {
+        "latitudeE7": 468973070,
+        "longitudeE7": 75060258,
+        "sourceInfo": {
+          "deviceTag": -1104337312
+        }
+      },
+      "duration": {
+        "startTimestamp": "2018-09-15T18:45:09.975Z",
+        "endTimestamp": "2018-09-16T06:52:33.882Z"
+      },
+      "distance": 31377,
+      "activityType": "IN_PASSENGER_VEHICLE",
+      "confidence": "MEDIUM",
+      "activities": [{
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 62.82302940358119
+      }, {
+        "activityType": "WALKING",
+        "probability": 28.686271235584158
+      }, {
+        "activityType": "MOTORCYCLING",
+        "probability": 2.613135157927708
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 466506500,
+          "lngE7": 77065382
+        }, {
+          "latE7": 467429161,
+          "lngE7": 76028790
+        }, {
+          "latE7": 468973350,
+          "lngE7": 75058636
+        }],
+        "source": "INFERRED",
+        "distanceMeters": 37049.53400743962
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED"
+    }
+  }]
+}

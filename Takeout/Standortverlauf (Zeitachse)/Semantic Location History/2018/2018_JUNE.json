@@ -1,0 +1,1092 @@
+{
+  "timelineObjects": [{
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 589689360,
+        "longitudeE7": 57311170,
+        "sourceInfo": {
+          "deviceTag": -1104337312
+        }
+      },
+      "endLocation": {
+        "latitudeE7": 589907390,
+        "longitudeE7": 56902230,
+        "sourceInfo": {
+          "deviceTag": -1104337312
+        }
+      },
+      "duration": {
+        "startTimestamp": "2018-06-16T17:13:19.525Z",
+        "endTimestamp": "2018-06-16T17:31:12Z"
+      },
+      "distance": 4655,
+      "activityType": "IN_BUS",
+      "confidence": "HIGH",
+      "activities": [{
+        "activityType": "IN_BUS",
+        "probability": 88.95019504356743
+      }, {
+        "activityType": "WALKING",
+        "probability": 9.970595756287635
+      }, {
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 1.0182652255411122
+      }],
+      "transitPath": {
+        "transitStops": [{
+          "latitudeE7": 589689360,
+          "longitudeE7": 57311170,
+          "placeId": "ChIJpXjFskk1OkYRzOGEZxhSJXg",
+          "address": "Stavanger, Norge",
+          "name": "Stavanger hpl. 25"
+        }, {
+          "latitudeE7": 589907390,
+          "longitudeE7": 56902230,
+          "placeId": "ChIJ_Q6XClC1O0YRvaDvj1yc4kg",
+          "address": "Stavanger, Norge",
+          "name": "Porfyrveien"
+        }],
+        "name": "5",
+        "hexRgbColor": "000000",
+        "linePlaceId": "ChIJdHJhbnNpdAARtLfQS9bGE7k",
+        "source": "INFERRED"
+      },
+      "simplifiedRawPath": {
+        "points": [{
+          "latE7": 589752172,
+          "lngE7": 57109141,
+          "accuracyMeters": 10,
+          "timestamp": "2018-06-16T17:24:40Z"
+        }, {
+          "latE7": 589771888,
+          "lngE7": 57078228,
+          "accuracyMeters": 10,
+          "timestamp": "2018-06-16T17:25:27Z"
+        }, {
+          "latE7": 589797862,
+          "lngE7": 56918173,
+          "accuracyMeters": 10,
+          "timestamp": "2018-06-16T17:28:20Z"
+        }, {
+          "latE7": 589828643,
+          "lngE7": 56910918,
+          "accuracyMeters": 10,
+          "timestamp": "2018-06-16T17:29:06Z"
+        }, {
+          "latE7": 589867388,
+          "lngE7": 56932958,
+          "accuracyMeters": 10,
+          "timestamp": "2018-06-16T17:30:25Z"
+        }],
+        "source": "BACKFILLED",
+        "distanceMeters": 3867.857028558983
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 589888536,
+        "longitudeE7": 56914866,
+        "sourceInfo": {
+          "deviceTag": -1104337312
+        }
+      },
+      "endLocation": {
+        "latitudeE7": 589926116,
+        "longitudeE7": 56820638,
+        "placeId": "ChIJ7dR56kW1O0YRSJpzFbFPtPU",
+        "address": "Statfjordsvingene 15B, 4028 Stavanger, Norge",
+        "sourceInfo": {
+          "deviceTag": -1104337312
+        },
+        "locationConfidence": 42.42018
+      },
+      "duration": {
+        "startTimestamp": "2018-06-16T17:31:12Z",
+        "endTimestamp": "2018-06-16T17:37:36.852Z"
+      },
+      "activityType": "WALKING",
+      "confidence": "MEDIUM",
+      "activities": [{
+        "activityType": "WALKING",
+        "probability": 67.8489269859849
+      }, {
+        "activityType": "IN_BUS",
+        "probability": 29.809090088146313
+      }, {
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 2.2673299023741356
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 589888381,
+          "lngE7": 56914601
+        }, {
+          "latE7": 589900360,
+          "lngE7": 56881737
+        }, {
+          "latE7": 589925460,
+          "lngE7": 56825823
+        }],
+        "source": "INFERRED"
+      },
+      "simplifiedRawPath": {
+        "points": [{
+          "latE7": 589908022,
+          "lngE7": 56903341,
+          "accuracyMeters": 10,
+          "timestamp": "2018-06-16T17:31:44Z"
+        }]
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED"
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 589926116,
+        "longitudeE7": 56820638,
+        "placeId": "ChIJ7dR56kW1O0YRSJpzFbFPtPU",
+        "address": "Statfjordsvingene 15B, 4028 Stavanger, Norge",
+        "sourceInfo": {
+          "deviceTag": -1104337312
+        },
+        "locationConfidence": 42.42018
+      },
+      "duration": {
+        "startTimestamp": "2018-06-16T17:37:36.852Z",
+        "endTimestamp": "2018-06-17T14:22:04.044Z"
+      },
+      "placeConfidence": "MEDIUM_CONFIDENCE",
+      "centerLatE7": 589926293,
+      "centerLngE7": 56821564,
+      "visitConfidence": 94,
+      "otherCandidateLocations": [{
+        "latitudeE7": 589926712,
+        "longitudeE7": 56820125,
+        "placeId": "ChIJwbHewUW1O0YR_ZdiMkKA85A",
+        "address": "Statfjordsvingene 15A, 4028 Stavanger, Norge",
+        "locationConfidence": 18.637579
+      }, {
+        "latitudeE7": 589925636,
+        "longitudeE7": 56812973,
+        "placeId": "ChIJxYp06EW1O0YRfvwD7bGi5BU",
+        "address": "Statfjordsvingene 19, 4028 Stavanger, Norge",
+        "name": "Sørfossmo Traffic Engineering \u0026 design",
+        "locationConfidence": 13.53668
+      }, {
+        "latitudeE7": 589949600,
+        "longitudeE7": 56833540,
+        "placeId": "ChIJO3ueRkS1O0YRYGVao5wQ4ZI",
+        "address": "Stavanger, Norge",
+        "name": "Vardenes skole",
+        "locationConfidence": 11.1916895
+      }, {
+        "latitudeE7": 589927303,
+        "longitudeE7": 56823291,
+        "placeId": "ChIJIY92wEW1O0YRD2qcR32XS64",
+        "address": "Statfjordsvingene 4, 4028 Stavanger, Norge",
+        "locationConfidence": 6.4785237
+      }, {
+        "latitudeE7": 589945150,
+        "longitudeE7": 56818440,
+        "placeId": "ChIJpf27MUS1O0YRNOYSEIEgD-Y",
+        "address": "Stavanger, Norge",
+        "name": "Vardenes skole",
+        "locationConfidence": 5.3263183
+      }, {
+        "latitudeE7": 589935850,
+        "longitudeE7": 56779280,
+        "placeId": "ChIJ4aGiXEa1O0YR_igSIIep1jw",
+        "address": "Stavanger, Norge",
+        "name": "Gjerdeveien",
+        "locationConfidence": 0.5393406
+      }, {
+        "latitudeE7": 589900196,
+        "longitudeE7": 56820872,
+        "placeId": "ChIJ-4YnbE-1O0YRoCmiE2VVX5c",
+        "address": "Eldfiskbakken 11, 4028 Stavanger, Norge",
+        "name": "Teinå school",
+        "locationConfidence": 0.3085676
+      }, {
+        "latitudeE7": 589946837,
+        "longitudeE7": 56818493,
+        "placeId": "ChIJI1Y5MES1O0YRFfHx6-R929c",
+        "address": "Dusavikveien 283, 4029 Stavanger, Norge",
+        "name": "AngusBurger Stavanger",
+        "locationConfidence": 0.28536
+      }, {
+        "latitudeE7": 589926132,
+        "longitudeE7": 56827959,
+        "placeId": "ChIJcfsNvkW1O0YRWYJKbnitB3s",
+        "address": "Statfjordsvingene 8, 4028 Stavanger, Norge",
+        "name": "Betong \u0026 anlegg AS",
+        "locationConfidence": 0.20321587
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 35,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 589926116,
+        "longitudeE7": 56820638,
+        "sourceInfo": {
+          "deviceTag": -1104337312
+        }
+      },
+      "endLocation": {
+        "latitudeE7": 589709384,
+        "longitudeE7": 57308082,
+        "sourceInfo": {
+          "deviceTag": -1104337312
+        }
+      },
+      "duration": {
+        "startTimestamp": "2018-06-17T14:22:04.044Z",
+        "endTimestamp": "2018-06-17T14:57:00.160Z"
+      },
+      "distance": 3659,
+      "activityType": "IN_PASSENGER_VEHICLE",
+      "confidence": "LOW",
+      "activities": [{
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 39.840242490960925
+      }, {
+        "activityType": "WALKING",
+        "probability": 26.411048768512092
+      }, {
+        "activityType": "RUNNING",
+        "probability": 16.039065484388388
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 589926452,
+          "lngE7": 56821746
+        }, {
+          "latE7": 589738044,
+          "lngE7": 57216687
+        }, {
+          "latE7": 589709243,
+          "lngE7": 57307476
+        }],
+        "source": "INFERRED"
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "parkingEvent": {
+        "location": {
+          "latitudeE7": 589709384,
+          "longitudeE7": 57308082,
+          "accuracyMetres": 167
+        },
+        "method": "END_OF_ACTIVITY_SEGMENT",
+        "locationSource": "UNKNOWN",
+        "timestamp": "2018-06-17T14:57:00.160Z"
+      }
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 589709282,
+        "longitudeE7": 57310710,
+        "placeId": "ChIJIU4am0k1OkYRqqzmTi7XKto",
+        "address": "Skagenkaien 14a, 4006 Stavanger, Norge",
+        "name": "Beverly Hills Fun Pub",
+        "sourceInfo": {
+          "deviceTag": -1104337312
+        },
+        "locationConfidence": 44.10613
+      },
+      "duration": {
+        "startTimestamp": "2018-06-17T14:57:00.160Z",
+        "endTimestamp": "2018-06-17T16:45:39.230Z"
+      },
+      "placeConfidence": "MEDIUM_CONFIDENCE",
+      "centerLatE7": 589709275,
+      "centerLngE7": 57307475,
+      "visitConfidence": 92,
+      "otherCandidateLocations": [{
+        "latitudeE7": 589709620,
+        "longitudeE7": 57310534,
+        "placeId": "ChIJZYl9gkk1OkYRAToTu03l7Xw",
+        "address": "Skagenkaien 14a, 4006 Stavanger, Norge",
+        "name": "Stavanger Sports Cafe",
+        "locationConfidence": 42.615067
+      }, {
+        "latitudeE7": 589710084,
+        "longitudeE7": 57309338,
+        "placeId": "ChIJQTpvmUk1OkYRlYLVHXJkcyw",
+        "address": "Skagenkaien 13, 4006 Stavanger, Norge",
+        "name": "Skagen Restaurant",
+        "locationConfidence": 4.084584
+      }, {
+        "latitudeE7": 589720951,
+        "longitudeE7": 57317139,
+        "placeId": "ChIJz2DrJUo1OkYRUBlr3-tKvgQ",
+        "address": "Valberget 3, 4006 Stavanger, Norge",
+        "name": "Café Sting",
+        "locationConfidence": 1.5059776
+      }, {
+        "latitudeE7": 589687900,
+        "longitudeE7": 57308700,
+        "placeId": "ChIJUayeUkg1OkYRgc9ZsziLA6Y",
+        "address": "Stavanger, Norge",
+        "name": "Stavanger hpl. 20",
+        "locationConfidence": 1.132221
+      }, {
+        "latitudeE7": 589714546,
+        "longitudeE7": 57300860,
+        "placeId": "ChIJV4GU2ks1OkYR9nVQDCv98Rk",
+        "address": "Skagenkaien, 4006 Stavanger, Norge",
+        "name": "Skagenkaien",
+        "locationConfidence": 0.729426
+      }, {
+        "latitudeE7": 589699999,
+        "longitudeE7": 57315958,
+        "placeId": "ChIJw4Rb0LQ1OkYR5P_wSi7mxD8",
+        "address": "Kongsgårdbakken 1, 4005 Stavanger, Norge",
+        "name": "Torget",
+        "locationConfidence": 0.6421311
+      }, {
+        "latitudeE7": 589707084,
+        "longitudeE7": 57312212,
+        "placeId": "ChIJjUMFmUk1OkYRrpSn6Afy-ow",
+        "address": "Skagenkaien 10, 4006 Stavanger, Norge",
+        "name": "Ovenpaa",
+        "locationConfidence": 0.36883092
+      }, {
+        "latitudeE7": 589722913,
+        "longitudeE7": 57342072,
+        "placeId": "ChIJDymTBUo1OkYRonjO4f4_ZHc",
+        "address": "Salvågergata 10, 4006 Stavanger, Norge",
+        "name": "NUART GALLERY",
+        "locationConfidence": 0.10720927
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 37,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 589709314,
+        "longitudeE7": 57307852,
+        "sourceInfo": {
+          "deviceTag": -1104337312
+        }
+      },
+      "endLocation": {
+        "latitudeE7": 589871289,
+        "longitudeE7": 56931007,
+        "sourceInfo": {
+          "deviceTag": -1104337312
+        }
+      },
+      "duration": {
+        "startTimestamp": "2018-06-17T16:45:39.230Z",
+        "endTimestamp": "2018-06-18T16:17:14Z"
+      },
+      "distance": 2835,
+      "activityType": "IN_PASSENGER_VEHICLE",
+      "confidence": "LOW",
+      "activities": [{
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 57.36358709261289
+      }, {
+        "activityType": "IN_BUS",
+        "probability": 20.366445744215866
+      }, {
+        "activityType": "WALKING",
+        "probability": 19.997421424751256
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 589709243,
+          "lngE7": 57307496
+        }, {
+          "latE7": 589745025,
+          "lngE7": 57119441
+        }, {
+          "latE7": 589871330,
+          "lngE7": 56932544
+        }],
+        "source": "INFERRED"
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "parkingEvent": {
+        "location": {
+          "latitudeE7": 589871289,
+          "longitudeE7": 56931007,
+          "accuracyMetres": 160
+        },
+        "method": "END_OF_ACTIVITY_SEGMENT",
+        "locationSource": "UNKNOWN",
+        "timestamp": "2018-06-18T16:17:14Z"
+      }
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 589871289,
+        "longitudeE7": 56931007,
+        "sourceInfo": {
+          "deviceTag": -1104337312
+        }
+      },
+      "endLocation": {
+        "latitudeE7": 589925093,
+        "longitudeE7": 56825853,
+        "sourceInfo": {
+          "deviceTag": -1104337312
+        }
+      },
+      "duration": {
+        "startTimestamp": "2018-06-18T16:17:14Z",
+        "endTimestamp": "2018-06-18T16:26:50.931Z"
+      },
+      "distance": 848,
+      "activityType": "WALKING",
+      "confidence": "MEDIUM",
+      "activities": [{
+        "activityType": "WALKING",
+        "probability": 70.2614505929407
+      }, {
+        "activityType": "IN_BUS",
+        "probability": 14.384316052809476
+      }, {
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 12.839606093000858
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 589871292,
+          "lngE7": 56930966
+        }, {
+          "latE7": 589900360,
+          "lngE7": 56881737
+        }, {
+          "latE7": 589925460,
+          "lngE7": 56826038
+        }],
+        "source": "INFERRED"
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED"
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 589925636,
+        "longitudeE7": 56812973,
+        "placeId": "ChIJxYp06EW1O0YRfvwD7bGi5BU",
+        "address": "Statfjordsvingene 19, 4028 Stavanger, Norge",
+        "name": "Sørfossmo Traffic Engineering \u0026 design",
+        "sourceInfo": {
+          "deviceTag": -1104337312
+        },
+        "locationConfidence": 33.62953
+      },
+      "duration": {
+        "startTimestamp": "2018-06-18T16:26:50.931Z",
+        "endTimestamp": "2018-06-18T16:46:17.075Z"
+      },
+      "placeConfidence": "LOW_CONFIDENCE",
+      "centerLatE7": 589925206,
+      "centerLngE7": 56825329,
+      "visitConfidence": 85,
+      "otherCandidateLocations": [{
+        "latitudeE7": 589949600,
+        "longitudeE7": 56833540,
+        "placeId": "ChIJO3ueRkS1O0YRYGVao5wQ4ZI",
+        "address": "Stavanger, Norge",
+        "name": "Vardenes skole",
+        "locationConfidence": 24.675198
+      }, {
+        "latitudeE7": 589945150,
+        "longitudeE7": 56818440,
+        "placeId": "ChIJpf27MUS1O0YRNOYSEIEgD-Y",
+        "address": "Stavanger, Norge",
+        "name": "Vardenes skole",
+        "locationConfidence": 10.923664
+      }, {
+        "latitudeE7": 589923948,
+        "longitudeE7": 56824381,
+        "placeId": "ChIJ0e4YlUW1O0YRLAjvHtO91BM",
+        "address": "Statfjordsvingene 12, 4028 Stavanger, Norge",
+        "locationConfidence": 9.5238085
+      }, {
+        "latitudeE7": 589926933,
+        "longitudeE7": 56825669,
+        "placeId": "ChIJr3Czv0W1O0YRqsm1TCwf2Is",
+        "address": "Statfjordsvingene 6, 4028 Stavanger, Norge",
+        "locationConfidence": 7.014433
+      }, {
+        "latitudeE7": 589926132,
+        "longitudeE7": 56827959,
+        "placeId": "ChIJcfsNvkW1O0YRWYJKbnitB3s",
+        "address": "Statfjordsvingene 8, 4028 Stavanger, Norge",
+        "name": "Betong \u0026 anlegg AS",
+        "locationConfidence": 3.8442256
+      }, {
+        "latitudeE7": 589900196,
+        "longitudeE7": 56820872,
+        "placeId": "ChIJ-4YnbE-1O0YRoCmiE2VVX5c",
+        "address": "Eldfiskbakken 11, 4028 Stavanger, Norge",
+        "name": "Teinå school",
+        "locationConfidence": 1.4454894
+      }, {
+        "latitudeE7": 589946837,
+        "longitudeE7": 56818493,
+        "placeId": "ChIJI1Y5MES1O0YRFfHx6-R929c",
+        "address": "Dusavikveien 283, 4029 Stavanger, Norge",
+        "name": "AngusBurger Stavanger",
+        "locationConfidence": 1.2021972
+      }, {
+        "latitudeE7": 589924643,
+        "longitudeE7": 56835475,
+        "placeId": "ChIJkzJHmEW1O0YRLAHNjfIpI4Q",
+        "address": "Veslebakken 4D, 4028 Stavanger, Norge",
+        "name": "Tou Foto",
+        "locationConfidence": 1.0791106
+      }, {
+        "latitudeE7": 589897182,
+        "longitudeE7": 56885985,
+        "placeId": "ChIJEzdrh1G1O0YRbU0xljn-YUk",
+        "address": "Gjerdeveien 30, 4027 Stavanger, Norge",
+        "name": "Tasta Concrete Skatepark",
+        "locationConfidence": 0.60243976
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 29,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 589925108,
+        "longitudeE7": 56825693,
+        "sourceInfo": {
+          "deviceTag": -1104337312
+        }
+      },
+      "endLocation": {
+        "latitudeE7": 589718385,
+        "longitudeE7": 57376455,
+        "sourceInfo": {
+          "deviceTag": -1104337312
+        }
+      },
+      "duration": {
+        "startTimestamp": "2018-06-20T10:12:50.698Z",
+        "endTimestamp": "2018-06-20T14:55:26.616Z"
+      },
+      "distance": 3904,
+      "activityType": "IN_PASSENGER_VEHICLE",
+      "confidence": "LOW",
+      "activities": [{
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 55.83400220954261
+      }, {
+        "activityType": "CYCLING",
+        "probability": 30.07312195552812
+      }, {
+        "activityType": "WALKING",
+        "probability": 11.022986327112385
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 589925460,
+          "lngE7": 56825871
+        }, {
+          "latE7": 589650230,
+          "lngE7": 57293291
+        }, {
+          "latE7": 589720115,
+          "lngE7": 57378549
+        }],
+        "source": "INFERRED"
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "parkingEvent": {
+        "location": {
+          "latitudeE7": 589718385,
+          "longitudeE7": 57376455,
+          "accuracyMetres": 175
+        },
+        "method": "END_OF_ACTIVITY_SEGMENT",
+        "locationSource": "UNKNOWN",
+        "timestamp": "2018-06-20T14:55:26.616Z"
+      }
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 589717894,
+        "longitudeE7": 57374479,
+        "placeId": "ChIJIXyV3jU1OkYRHbjS2e0tjAA",
+        "address": "Verksgata 2, 4013 Stavanger, Norge",
+        "name": "Magasinblaa",
+        "sourceInfo": {
+          "deviceTag": -1104337312
+        },
+        "locationConfidence": 78.49242,
+        "isCurrentLocation": true
+      },
+      "duration": {
+        "startTimestamp": "2018-06-20T14:55:26.616Z",
+        "endTimestamp": "2018-06-20T15:09:20.382Z"
+      },
+      "placeConfidence": "LOW_CONFIDENCE",
+      "childVisits": [{
+        "location": {
+          "latitudeE7": 589717472,
+          "longitudeE7": 57376387,
+          "placeId": "ChIJIXyV3jU1OkYRxs2_4WhS5rk",
+          "address": "Verksgata 2, 4013 Stavanger, Norge",
+          "name": "Claire Magasin Blaa",
+          "sourceInfo": {
+            "deviceTag": -1104337312
+          },
+          "locationConfidence": 19.189072
+        },
+        "duration": {
+          "startTimestamp": "2018-06-20T14:55:26.616Z",
+          "endTimestamp": "2018-06-20T15:02:16.981Z"
+        },
+        "placeConfidence": "LOW_CONFIDENCE",
+        "centerLatE7": 589718224,
+        "centerLngE7": 57376802,
+        "visitConfidence": 92,
+        "otherCandidateLocations": [{
+          "latitudeE7": 589717894,
+          "longitudeE7": 57374479,
+          "placeId": "ChIJIXyV3jU1OkYRHbjS2e0tjAA",
+          "address": "Verksgata 2, 4013 Stavanger, Norge",
+          "name": "Magasinblaa",
+          "locationConfidence": 14.450272
+        }, {
+          "latitudeE7": 589718899,
+          "longitudeE7": 57374279,
+          "placeId": "ChIJIXyV3jU1OkYR1xFscD6jBTY",
+          "address": "Verksgata 2, 4013 Stavanger, Norge",
+          "name": "Vaaland Dampbakeri \u0026 Conditori MagasinBlaa",
+          "locationConfidence": 9.959914
+        }, {
+          "latitudeE7": 589717607,
+          "longitudeE7": 57379333,
+          "placeId": "ChIJYWAFF0k1OkYRowDOEORxy2I",
+          "address": "Gravarsveien 7, 4306 Sandnes, Norge",
+          "name": "din ZTIL Magasin blaa",
+          "locationConfidence": 6.989674
+        }, {
+          "latitudeE7": 589717729,
+          "longitudeE7": 57372647,
+          "placeId": "ChIJIXyV3jU1OkYR8OO2Yx01SD0",
+          "address": "Verksgata 2, 4013 Stavanger, Norge",
+          "name": "Floriss Magasinblaa",
+          "locationConfidence": 5.6087685
+        }, {
+          "latitudeE7": 589717729,
+          "longitudeE7": 57372647,
+          "placeId": "ChIJIXyV3jU1OkYR8OO2Yx01SD0",
+          "address": "Verksgata 2, 4013 Stavanger, Norge",
+          "name": "Floriss Stavanger",
+          "locationConfidence": 4.596827
+        }, {
+          "latitudeE7": 589717644,
+          "longitudeE7": 57381628,
+          "placeId": "ChIJOREm1zU1OkYRPFNa3ML4xc8",
+          "name": "Riccovero Concept Store - Magasinblaa",
+          "locationConfidence": 3.7895002
+        }, {
+          "latitudeE7": 589717182,
+          "longitudeE7": 57374719,
+          "placeId": "ChIJqQU72TU1OkYRHwMf1VDyqNU",
+          "address": "Østervåg 8, 4013 Stavanger, Norge",
+          "name": "Katharine Magasinblaa",
+          "locationConfidence": 3.7443984
+        }, {
+          "latitudeE7": 589717083,
+          "longitudeE7": 57376718,
+          "placeId": "ChIJJUOm2TU1OkYRV2sVrKvk_8A",
+          "address": "Verksgata 2, 4013 Stavanger, Norge",
+          "name": "United colors of Benetton KIDS Magasinblaa",
+          "locationConfidence": 1.8575135
+        }, {
+          "latitudeE7": 589717729,
+          "longitudeE7": 57372647,
+          "placeId": "ChIJ7SaRGzY1OkYRBpL8EOWiDYY",
+          "address": "Verksgata 2, 4013 Stavanger, Norge",
+          "name": "Modern Design Avd. Magasinblaa",
+          "locationConfidence": 1.8518717
+        }],
+        "editConfirmationStatus": "NOT_CONFIRMED",
+        "locationConfidence": 47,
+        "placeVisitType": "SINGLE_PLACE"
+      }],
+      "centerLatE7": 589718082,
+      "centerLngE7": 57377127,
+      "visitConfidence": 92,
+      "otherCandidateLocations": [{
+        "latitudeE7": 589727285,
+        "longitudeE7": 57335493,
+        "placeId": "ChIJDyhiEUo1OkYRZS9ICqFksSQ",
+        "address": "Øvre Holmegate 32, 4006 Stavanger, Norge",
+        "name": "Fargegaten",
+        "locationConfidence": 5.40459
+      }, {
+        "latitudeE7": 589721940,
+        "longitudeE7": 57378080,
+        "placeId": "ChIJ5d8sxTU1OkYRVc_mQ7QxfCE",
+        "address": "Stavanger, Norge",
+        "name": "Stavanger",
+        "locationConfidence": 2.6791155
+      }, {
+        "latitudeE7": 589725069,
+        "longitudeE7": 57344091,
+        "placeId": "ChIJWVgHCUo1OkYRbuKQEGzlkvs",
+        "address": "Breigata 25, 4006 Stavanger, Norge",
+        "name": "Oliviers \u0026 Co Stavanger",
+        "locationConfidence": 0.47173193
+      }, {
+        "latitudeE7": 589718885,
+        "longitudeE7": 57353609,
+        "placeId": "ChIJjdsa_DU1OkYRJoTaCaPu3w4",
+        "name": "VIERDAL Advokatfirma AS",
+        "locationConfidence": 0.3828268
+      }, {
+        "latitudeE7": 589704201,
+        "longitudeE7": 57379283,
+        "placeId": "ChIJb1kuZDY1OkYR_zr-NR-NcEc",
+        "address": "Lagårdsveien 91, 4010 Stavanger, Norge",
+        "name": "Pollo Loco Stavanger",
+        "locationConfidence": 0.3184351
+      }, {
+        "latitudeE7": 589707470,
+        "longitudeE7": 57359590,
+        "placeId": "ChIJm6dxETY1OkYRpODl8ECB3TE",
+        "address": "Klubbgata 5, 4013 Stavanger, Norge",
+        "name": "Arkaden Torgterrassen",
+        "locationConfidence": 0.25942856
+      }, {
+        "latitudeE7": 589702158,
+        "longitudeE7": 57405754,
+        "placeId": "ChIJB5TElTY1OkYRYgPCtIislUI",
+        "address": "Tårngata 3, 4013 Stavanger, Norge",
+        "name": "Polski Sklep",
+        "locationConfidence": 0.2571884
+      }, {
+        "latitudeE7": 589724828,
+        "longitudeE7": 57399769,
+        "placeId": "ChIJJ9AuNzQ1OkYRU_Urf4ZGOfA",
+        "address": "Verksgata 14, 4004 Stavanger, Norge",
+        "name": "Fiskepiren Kolumbus Kundesenter",
+        "locationConfidence": 0.2498852
+      }, {
+        "latitudeE7": 589724232,
+        "longitudeE7": 57398147,
+        "placeId": "ChIJs2eLgEk1OkYRXQ3zeR5FqZA",
+        "address": "4006 Stavanger, Norge",
+        "name": "Fiskepiren",
+        "locationConfidence": 0.22033519
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 64,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 589717894,
+        "longitudeE7": 57374479,
+        "sourceInfo": {
+          "deviceTag": -1104337312
+        }
+      },
+      "endLocation": {
+        "latitudeE7": 468510270,
+        "longitudeE7": 71898237,
+        "sourceInfo": {
+          "deviceTag": -1104337312
+        }
+      },
+      "duration": {
+        "startTimestamp": "2018-06-20T15:09:20.382Z",
+        "endTimestamp": "2018-06-22T00:00:00Z"
+      },
+      "distance": 1351188,
+      "activityType": "FLYING",
+      "confidence": "LOW",
+      "activities": [{
+        "activityType": "FLYING",
+        "probability": 39.29046181797709
+      }, {
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 28.497492663935226
+      }, {
+        "activityType": "WALKING",
+        "probability": 27.325617562731914
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED"
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 468510270,
+        "longitudeE7": 71898237,
+        "placeId": "ChIJIS66R8drjkcRsCD8HRGu-98",
+        "address": "3186 Düdingen, Schweiz",
+        "name": "Düdingen",
+        "sourceInfo": {
+          "deviceTag": -1104337312
+        },
+        "locationConfidence": 66.44617
+      },
+      "duration": {
+        "startTimestamp": "2018-06-22T12:47:45.438Z",
+        "endTimestamp": "2018-06-22T13:09:43.987Z"
+      },
+      "placeConfidence": "MEDIUM_CONFIDENCE",
+      "centerLatE7": 468510083,
+      "centerLngE7": 71899683,
+      "visitConfidence": 90,
+      "otherCandidateLocations": [{
+        "latitudeE7": 468503979,
+        "longitudeE7": 71897923,
+        "placeId": "ChIJA6xmOsdrjkcRRsrd81--tKo",
+        "address": "3186 Düdingen, Schweiz",
+        "name": "Düdingen, Bahnhof",
+        "locationConfidence": 15.464308
+      }, {
+        "latitudeE7": 468503694,
+        "longitudeE7": 71906970,
+        "placeId": "ChIJLUhOGsdrjkcRl_dohpTPwcY",
+        "address": "Hauptstrasse 44, 3186 Düdingen, Schweiz",
+        "name": "Bahnhofzentrum, Düdingen",
+        "locationConfidence": 5.2570095
+      }, {
+        "latitudeE7": 468510034,
+        "longitudeE7": 71890096,
+        "placeId": "ChIJo43GSsdrjkcR8lru-SQseDo",
+        "address": "Haltaweg 1, 3186 Düdingen, Schweiz",
+        "name": "Coiffure Mara",
+        "locationConfidence": 2.8448567
+      }, {
+        "latitudeE7": 468509934,
+        "longitudeE7": 71915573,
+        "placeId": "ChIJM38CfWJrjkcRzmzxOnB-12g",
+        "address": "Bahnhofstrasse 5, 3186 Düdingen, Schweiz",
+        "name": "Praxis für Kieferorthopädie Dr. med. dent. J. van den Hoek",
+        "locationConfidence": 0.7034686
+      }, {
+        "latitudeE7": 468515614,
+        "longitudeE7": 71880276,
+        "placeId": "ChIJO2Rru8BrjkcRCHCl5r6jX-A",
+        "address": "Bonnstrasse 1, 3186 Düdingen, Schweiz",
+        "name": "von Mühlenen AG",
+        "locationConfidence": 0.64903176
+      }, {
+        "latitudeE7": 468510899,
+        "longitudeE7": 71904555,
+        "placeId": "ChIJH1loasdrjkcRuZ9Lvx-NgVE",
+        "name": "Hotel Bahnhof",
+        "locationConfidence": 0.6307601
+      }, {
+        "latitudeE7": 468510899,
+        "longitudeE7": 71904555,
+        "placeId": "ChIJH1loasdrjkcRgexnS4sa8W0",
+        "address": "Bahnhofplatz 2, 3186 Düdingen, Schweiz",
+        "name": "Praxiszentrum Düdingen",
+        "locationConfidence": 0.53804266
+      }, {
+        "latitudeE7": 468507745,
+        "longitudeE7": 71901947,
+        "placeId": "ChIJx9G1P8drjkcRZssfo_nFEQ4",
+        "address": "Bahnhofplatz 1, 3186 Düdingen, Schweiz",
+        "name": "Raiffeisenbank Freiburg Ost / Fribourg-Est",
+        "locationConfidence": 0.4044934
+      }, {
+        "latitudeE7": 468510436,
+        "longitudeE7": 71898133,
+        "placeId": "ChIJtz4GSMdrjkcRYJ5kvyF7L2Y",
+        "address": "Bahnhofplatz 4, 3186 Düdingen, Schweiz",
+        "name": "BLS Reisezentrum",
+        "locationConfidence": 0.3785414
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 52,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 468510270,
+        "longitudeE7": 71898237,
+        "sourceInfo": {
+          "deviceTag": -1104337312
+        }
+      },
+      "endLocation": {
+        "latitudeE7": 468982665,
+        "longitudeE7": 75071419,
+        "sourceInfo": {
+          "deviceTag": -1104337312
+        }
+      },
+      "duration": {
+        "startTimestamp": "2018-06-22T13:09:43.987Z",
+        "endTimestamp": "2018-06-22T17:59:24.908Z"
+      },
+      "distance": 24685,
+      "activityType": "IN_PASSENGER_VEHICLE",
+      "confidence": "LOW",
+      "activities": [{
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 40.39843491596999
+      }, {
+        "activityType": "WALKING",
+        "probability": 29.27838076020992
+      }, {
+        "activityType": "IN_TRAIN",
+        "probability": 13.867047022140502
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 468509025,
+          "lngE7": 71899547
+        }, {
+          "latE7": 468535575,
+          "lngE7": 71927661
+        }, {
+          "latE7": 468982162,
+          "lngE7": 75071835
+        }],
+        "source": "INFERRED"
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "parkingEvent": {
+        "location": {
+          "latitudeE7": 468982665,
+          "longitudeE7": 75071419,
+          "accuracyMetres": 165
+        },
+        "method": "END_OF_ACTIVITY_SEGMENT",
+        "locationSource": "UNKNOWN",
+        "timestamp": "2018-06-22T17:59:24.908Z"
+      }
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 468982162,
+        "longitudeE7": 75071206,
+        "placeId": "ChIJ52UXaC42jkcRdHVTYB9zDmg",
+        "address": "Eigerweg 6, 3123 Belp, Schweiz",
+        "sourceInfo": {
+          "deviceTag": -1104337312
+        },
+        "locationConfidence": 94.86808
+      },
+      "duration": {
+        "startTimestamp": "2018-06-22T17:59:24.908Z",
+        "endTimestamp": "2018-06-22T21:21:16.788Z"
+      },
+      "placeConfidence": "HIGH_CONFIDENCE",
+      "centerLatE7": 468982625,
+      "centerLngE7": 75071275,
+      "visitConfidence": 84,
+      "otherCandidateLocations": [{
+        "latitudeE7": 468983239,
+        "longitudeE7": 75071103,
+        "placeId": "ChIJOWStQy42jkcR0grxs7KnFU8",
+        "address": "Eigerweg 8, 3123 Belp, Schweiz",
+        "semanticType": "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence": 4.741572
+      }, {
+        "latitudeE7": 468964180,
+        "longitudeE7": 75053890,
+        "placeId": "ChIJB7YXhS42jkcRlzE60Ustdnk",
+        "address": "3123 Belp, Schweiz",
+        "name": "Belp, Eissel",
+        "locationConfidence": 0.2769903
+      }, {
+        "latitudeE7": 468983520,
+        "longitudeE7": 75058370,
+        "placeId": "ChIJKf3TcC42jkcRHrSCY_tnDXg",
+        "address": "Sägetstrasse 23d, 3123 Belp, Schweiz",
+        "name": "Star Photos",
+        "locationConfidence": 0.02645349
+      }, {
+        "latitudeE7": 468995472,
+        "longitudeE7": 75039845,
+        "placeId": "ChIJs9MNki02jkcRphuadNBf3lo",
+        "address": "Aemmenmattstrasse 12, 3123 Belp, Schweiz",
+        "name": "Serbisch-Orthodoxe Kirchengemeinde Bern",
+        "locationConfidence": 0.021959506
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 84,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 468982162,
+        "longitudeE7": 75071206,
+        "placeId": "ChIJ52UXaC42jkcRdHVTYB9zDmg",
+        "address": "Eigerweg 6, 3123 Belp, Schweiz",
+        "sourceInfo": {
+          "deviceTag": -1104337312
+        },
+        "locationConfidence": 99.32118
+      },
+      "duration": {
+        "startTimestamp": "2018-06-23T00:00:00Z",
+        "endTimestamp": "2018-06-23T14:09:22.677Z"
+      },
+      "placeConfidence": "HIGH_CONFIDENCE",
+      "centerLatE7": 468982500,
+      "centerLngE7": 75070367,
+      "visitConfidence": 76,
+      "otherCandidateLocations": [{
+        "latitudeE7": 468983239,
+        "longitudeE7": 75071103,
+        "placeId": "ChIJOWStQy42jkcR0grxs7KnFU8",
+        "address": "Eigerweg 8, 3123 Belp, Schweiz",
+        "semanticType": "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence": 0.37518722
+      }, {
+        "latitudeE7": 468964180,
+        "longitudeE7": 75053890,
+        "placeId": "ChIJB7YXhS42jkcRlzE60Ustdnk",
+        "address": "3123 Belp, Schweiz",
+        "name": "Belp, Eissel",
+        "locationConfidence": 0.22796018
+      }, {
+        "latitudeE7": 468983520,
+        "longitudeE7": 75058370,
+        "placeId": "ChIJKf3TcC42jkcRHrSCY_tnDXg",
+        "address": "Sägetstrasse 23d, 3123 Belp, Schweiz",
+        "name": "Star Photos",
+        "locationConfidence": 0.023270322
+      }, {
+        "latitudeE7": 468995472,
+        "longitudeE7": 75039845,
+        "placeId": "ChIJs9MNki02jkcRphuadNBf3lo",
+        "address": "Aemmenmattstrasse 12, 3123 Belp, Schweiz",
+        "name": "Serbisch-Orthodoxe Kirchengemeinde Bern",
+        "locationConfidence": 0.012523595
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 90,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }]
+}

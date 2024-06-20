@@ -1,0 +1,262 @@
+{
+  "timelineObjects": [{
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 468981404,
+        "longitudeE7": 75064511,
+        "sourceInfo": {
+          "deviceTag": -1104337312
+        }
+      },
+      "endLocation": {
+        "latitudeE7": 469018729,
+        "longitudeE7": 75041822,
+        "sourceInfo": {
+          "deviceTag": -1104337312
+        }
+      },
+      "duration": {
+        "startTimestamp": "2018-05-10T08:02:13Z",
+        "endTimestamp": "2018-05-10T08:28:06.999Z"
+      },
+      "distance": 4016,
+      "activityType": "RUNNING",
+      "confidence": "HIGH",
+      "activities": [{
+        "activityType": "RUNNING",
+        "probability": 98.45266044296912
+      }, {
+        "activityType": "WALKING",
+        "probability": 1.493556019243518
+      }, {
+        "activityType": "CYCLING",
+        "probability": 0.029793008900760972
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 468981742,
+          "lngE7": 75064239
+        }, {
+          "latE7": 468987503,
+          "lngE7": 75061101
+        }, {
+          "latE7": 469070167,
+          "lngE7": 75139431
+        }, {
+          "latE7": 469076118,
+          "lngE7": 75069422
+        }, {
+          "latE7": 469018745,
+          "lngE7": 75042452
+        }],
+        "source": "INFERRED"
+      },
+      "simplifiedRawPath": {
+        "points": [{
+          "latE7": 468981404,
+          "lngE7": 75064511,
+          "accuracyMeters": 10,
+          "timestamp": "2018-05-10T08:02:13Z"
+        }, {
+          "latE7": 469070079,
+          "lngE7": 75139199,
+          "accuracyMeters": 12,
+          "timestamp": "2018-05-10T08:17:15Z"
+        }, {
+          "latE7": 469076377,
+          "lngE7": 75067585,
+          "accuracyMeters": 10,
+          "timestamp": "2018-05-10T08:22:26Z"
+        }]
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 469018729,
+        "longitudeE7": 75041822,
+        "sourceInfo": {
+          "deviceTag": -1104337312
+        }
+      },
+      "endLocation": {
+        "latitudeE7": 468980076,
+        "longitudeE7": 75061181,
+        "sourceInfo": {
+          "deviceTag": -1104337312
+        }
+      },
+      "duration": {
+        "startTimestamp": "2018-05-10T08:28:06.999Z",
+        "endTimestamp": "2018-05-21T09:02:09Z"
+      },
+      "activityType": "UNKNOWN_ACTIVITY_TYPE",
+      "activities": [{
+        "activityType": "UNKNOWN_ACTIVITY_TYPE",
+        "probability": 0.0
+      }],
+      "simplifiedRawPath": {
+        "points": [{
+          "latE7": 468981780,
+          "lngE7": 75067462,
+          "accuracyMeters": 96,
+          "timestamp": "2018-05-21T09:00:51.278Z"
+        }],
+        "source": "BACKFILLED",
+        "distanceMeters": 506.044566396984
+      }
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 468980076,
+        "longitudeE7": 75061181,
+        "sourceInfo": {
+          "deviceTag": -1104337312
+        }
+      },
+      "endLocation": {
+        "latitudeE7": 468981608,
+        "longitudeE7": 75066392,
+        "sourceInfo": {
+          "deviceTag": -1104337312
+        }
+      },
+      "duration": {
+        "startTimestamp": "2018-05-21T09:02:09Z",
+        "endTimestamp": "2018-05-21T10:28:46.049Z"
+      },
+      "distance": 7169,
+      "activityType": "WALKING",
+      "confidence": "MEDIUM",
+      "activities": [{
+        "activityType": "WALKING",
+        "probability": 62.52326869268079
+      }, {
+        "activityType": "RUNNING",
+        "probability": 37.39025472220788
+      }, {
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 0.04820154714807122
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 468980445,
+          "lngE7": 75060868
+        }, {
+          "latE7": 468896751,
+          "lngE7": 75014100
+        }, {
+          "latE7": 468725433,
+          "lngE7": 75142555
+        }, {
+          "latE7": 468982315,
+          "lngE7": 75065789
+        }],
+        "source": "INFERRED"
+      },
+      "simplifiedRawPath": {
+        "points": [{
+          "latE7": 468909954,
+          "lngE7": 75038566,
+          "accuracyMeters": 13,
+          "timestamp": "2018-05-21T09:07:56Z"
+        }, {
+          "latE7": 468725868,
+          "lngE7": 75138112,
+          "accuracyMeters": 10,
+          "timestamp": "2018-05-21T09:48:49Z"
+        }]
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED"
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 468982162,
+        "longitudeE7": 75071206,
+        "placeId": "ChIJ52UXaC42jkcRdHVTYB9zDmg",
+        "address": "Eigerweg 6, 3123 Belp, Schweiz",
+        "sourceInfo": {
+          "deviceTag": -1104337312
+        },
+        "locationConfidence": 93.74242
+      },
+      "duration": {
+        "startTimestamp": "2018-05-21T10:37:47.443Z",
+        "endTimestamp": "2018-05-21T10:55:09.071Z"
+      },
+      "placeConfidence": "HIGH_CONFIDENCE",
+      "centerLatE7": 468982508,
+      "centerLngE7": 75071101,
+      "visitConfidence": 85,
+      "otherCandidateLocations": [{
+        "latitudeE7": 468983239,
+        "longitudeE7": 75071103,
+        "placeId": "ChIJOWStQy42jkcR0grxs7KnFU8",
+        "address": "Eigerweg 8, 3123 Belp, Schweiz",
+        "semanticType": "TYPE_SEARCHED_ADDRESS",
+        "locationConfidence": 5.7716794
+      }, {
+        "latitudeE7": 468964180,
+        "longitudeE7": 75053890,
+        "placeId": "ChIJB7YXhS42jkcRlzE60Ustdnk",
+        "address": "3123 Belp, Schweiz",
+        "name": "Belp, Eissel",
+        "locationConfidence": 0.27154312
+      }, {
+        "latitudeE7": 468983520,
+        "longitudeE7": 75058370,
+        "placeId": "ChIJKf3TcC42jkcRHrSCY_tnDXg",
+        "address": "Sägetstrasse 23d, 3123 Belp, Schweiz",
+        "name": "Star Photos",
+        "locationConfidence": 0.046563953
+      }, {
+        "latitudeE7": 468995472,
+        "longitudeE7": 75039845,
+        "placeId": "ChIJs9MNki02jkcRphuadNBf3lo",
+        "address": "Aemmenmattstrasse 12, 3123 Belp, Schweiz",
+        "name": "Serbisch-Orthodoxe Kirchengemeinde Bern",
+        "locationConfidence": 0.039119355
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 83,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 468982508,
+        "longitudeE7": 75071101
+      },
+      "endLocation": {
+        "latitudeE7": 589689360,
+        "longitudeE7": 57311170,
+        "sourceInfo": {
+          "deviceTag": -1104337312
+        }
+      },
+      "duration": {
+        "startTimestamp": "2018-05-21T10:55:09.071Z",
+        "endTimestamp": "2018-06-16T17:13:19.525Z"
+      },
+      "activityType": "UNKNOWN_ACTIVITY_TYPE",
+      "activities": [{
+        "activityType": "UNKNOWN_ACTIVITY_TYPE",
+        "probability": 0.0
+      }],
+      "simplifiedRawPath": {
+        "points": [{
+          "latE7": 488847199,
+          "lngE7": 23294048,
+          "accuracyMeters": 10,
+          "timestamp": "2018-06-07T21:30:10Z"
+        }],
+        "source": "BACKFILLED",
+        "distanceMeters": 1587463.8829179192
+      }
+    }
+  }]
+}

@@ -1,0 +1,315 @@
+{
+  "timelineObjects": [{
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 468981615,
+        "longitudeE7": 75066436,
+        "sourceInfo": {
+          "deviceTag": -1104337312
+        }
+      },
+      "endLocation": {
+        "latitudeE7": 468984179,
+        "longitudeE7": 74711091,
+        "sourceInfo": {
+          "deviceTag": -1104337312
+        }
+      },
+      "duration": {
+        "startTimestamp": "2018-10-19T14:07:50Z",
+        "endTimestamp": "2018-10-19T15:03:03.999Z"
+      },
+      "distance": 5652,
+      "activityType": "RUNNING",
+      "confidence": "MEDIUM",
+      "activities": [{
+        "activityType": "RUNNING",
+        "probability": 73.19187485450522
+      }, {
+        "activityType": "WALKING",
+        "probability": 24.47360990887933
+      }, {
+        "activityType": "HIKING",
+        "probability": 1.4401679174777917
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 468982353,
+          "lngE7": 75065851
+        }, {
+          "latE7": 469038200,
+          "lngE7": 74969820
+        }, {
+          "latE7": 469019088,
+          "lngE7": 74901981
+        }, {
+          "latE7": 468967666,
+          "lngE7": 74922204
+        }, {
+          "latE7": 468948822,
+          "lngE7": 74889683
+        }, {
+          "latE7": 468800125,
+          "lngE7": 74853143
+        }, {
+          "latE7": 468984069,
+          "lngE7": 74710650
+        }],
+        "source": "INFERRED",
+        "distanceMeters": 5938.594121212208
+      },
+      "simplifiedRawPath": {
+        "points": [{
+          "latE7": 469037843,
+          "lngE7": 74968749,
+          "accuracyMeters": 4,
+          "timestamp": "2018-10-19T14:15:38Z"
+        }, {
+          "latE7": 469019052,
+          "lngE7": 74902016,
+          "accuracyMeters": 4,
+          "timestamp": "2018-10-19T14:19:15Z"
+        }, {
+          "latE7": 468971043,
+          "lngE7": 74917144,
+          "accuracyMeters": 6,
+          "timestamp": "2018-10-19T14:25:01Z"
+        }, {
+          "latE7": 468948850,
+          "lngE7": 74889911,
+          "accuracyMeters": 8,
+          "timestamp": "2018-10-19T14:30:12.999Z"
+        }]
+      }
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 468901134,
+        "longitudeE7": 74900593,
+        "placeId": "ChIJ6QLB5S5IjkcRsOuvyxKkPkk",
+        "address": "Schweiz",
+        "name": "Cholholz",
+        "sourceInfo": {
+          "deviceTag": -1104337312
+        },
+        "locationConfidence": 57.795055,
+        "isCurrentLocation": true
+      },
+      "duration": {
+        "startTimestamp": "2018-10-19T15:09:30.999Z",
+        "endTimestamp": "2018-10-19T15:51:58.749Z"
+      },
+      "placeConfidence": "MEDIUM_CONFIDENCE",
+      "centerLatE7": 468909583,
+      "centerLngE7": 74789394,
+      "visitConfidence": 89,
+      "otherCandidateLocations": [{
+        "latitudeE7": 468150989,
+        "longitudeE7": 73413499,
+        "placeId": "ChIJJUJ1mndFjkcRFigG6SoQb4Q",
+        "address": "Schlossgasse 13, 3150 Schwarzenburg, Schweiz",
+        "name": "Naturpark Gantrisch",
+        "locationConfidence": 14.66413,
+        "isCurrentLocation": true
+      }, {
+        "latitudeE7": 468890971,
+        "longitudeE7": 74945165,
+        "placeId": "ChIJl0x--SpIjkcRtQDQII_or1w",
+        "address": "Seftigenstrasse 116, 3123 Belp, Schweiz",
+        "name": "Domicil Kompetenzzentrum Demenz Oberried",
+        "locationConfidence": 9.243409
+      }, {
+        "latitudeE7": 468886967,
+        "longitudeE7": 74946072,
+        "placeId": "ChIJhV6k_SpIjkcRV-W9MKsNWa0",
+        "address": "Seftigenstrasse 120, 3123 Belp, Schweiz",
+        "name": "Oberried Estate",
+        "locationConfidence": 7.131068
+      }, {
+        "latitudeE7": 468864925,
+        "longitudeE7": 74953265,
+        "placeId": "ChIJV9xFOsw3jkcReHim9c9kc0A",
+        "address": "Hühnerhubelstrasse 58a, 3123 Belp, Schweiz",
+        "name": "Transporte Belp Loosli GmbH",
+        "locationConfidence": 3.0475266
+      }, {
+        "latitudeE7": 468890971,
+        "longitudeE7": 74945165,
+        "placeId": "ChIJl0x--SpIjkcRcJVJnD4h4yc",
+        "locationConfidence": 2.3896883
+      }, {
+        "latitudeE7": 468863128,
+        "longitudeE7": 74948409,
+        "placeId": "ChIJne_5YCtIjkcRoMnrU3L5xDY",
+        "address": "Zimmerwaldweg 7, 3123 Belp, Schweiz",
+        "locationConfidence": 1.479576
+      }, {
+        "latitudeE7": 468886788,
+        "longitudeE7": 74943972,
+        "placeId": "ChIJy_oS_ipIjkcRIbvxYSGXbZk",
+        "address": "Seftigenstrasse 118, 3123 Belp, Schweiz",
+        "name": "Goldlandung GmbH",
+        "locationConfidence": 1.0545405
+      }, {
+        "latitudeE7": 468887301,
+        "longitudeE7": 74943850,
+        "placeId": "ChIJI7Vn_ipIjkcRdkIkab4bcKM",
+        "address": "Belp CH, Seftigenstrasse 118, 3123 Bern, Schweiz",
+        "name": "Tasma Life Balance",
+        "locationConfidence": 1.0456551
+      }, {
+        "latitudeE7": 468876796,
+        "longitudeE7": 74959838,
+        "placeId": "ChIJt0JyOitIjkcRzv1eNqsTGE0",
+        "locationConfidence": 0.80344516
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "simplifiedRawPath": {
+        "points": [{
+          "latE7": 468937171,
+          "lngE7": 74719014,
+          "accuracyMeters": 6,
+          "timestamp": "2018-10-19T15:09:30.999Z"
+        }, {
+          "latE7": 468927632,
+          "lngE7": 74730028,
+          "accuracyMeters": 47,
+          "timestamp": "2018-10-19T15:10:51.608Z"
+        }, {
+          "latE7": 468927632,
+          "lngE7": 74730028,
+          "accuracyMeters": 244,
+          "timestamp": "2018-10-19T15:13:03.008Z"
+        }, {
+          "latE7": 468927632,
+          "lngE7": 74730028,
+          "accuracyMeters": 424,
+          "timestamp": "2018-10-19T15:15:03.047Z"
+        }, {
+          "latE7": 468860661,
+          "lngE7": 74924806,
+          "accuracyMeters": 39,
+          "timestamp": "2018-10-19T15:41:48.251Z"
+        }, {
+          "latE7": 468868029,
+          "lngE7": 74922059,
+          "accuracyMeters": 243,
+          "timestamp": "2018-10-19T15:43:49.819Z"
+        }, {
+          "latE7": 468868029,
+          "lngE7": 74922059,
+          "accuracyMeters": 424,
+          "timestamp": "2018-10-19T15:45:50.884Z"
+        }],
+        "source": "BACKFILLED",
+        "distanceMeters": 1876.5825749700696
+      },
+      "locationConfidence": 59,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 468860661,
+        "longitudeE7": 74924806,
+        "sourceInfo": {
+          "deviceTag": -1104337312
+        }
+      },
+      "endLocation": {
+        "latitudeE7": 468982430,
+        "longitudeE7": 75071244,
+        "sourceInfo": {
+          "deviceTag": -1104337312
+        }
+      },
+      "duration": {
+        "startTimestamp": "2018-10-19T15:51:58.749Z",
+        "endTimestamp": "2018-10-19T16:07:07Z"
+      },
+      "distance": 1763,
+      "activityType": "WALKING",
+      "confidence": "MEDIUM",
+      "activities": [{
+        "activityType": "WALKING",
+        "probability": 59.13473295925131
+      }, {
+        "activityType": "RUNNING",
+        "probability": 35.06867907937361
+      }, {
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 2.9752013828313757
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 468855133,
+          "lngE7": 74934911
+        }, {
+          "latE7": 468938598,
+          "lngE7": 75038013
+        }, {
+          "latE7": 468982048,
+          "lngE7": 75071558
+        }],
+        "source": "INFERRED",
+        "distanceMeters": 2027.644113252377
+      }
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 468982161,
+        "longitudeE7": 75068346,
+        "placeId": "ChIJ52UXaC42jkcRdHVTYB9zDmg",
+        "address": "Eigerweg 6, 3123 Belp, Schweiz",
+        "sourceInfo": {
+          "deviceTag": -1104337312
+        },
+        "locationConfidence": 99.41284
+      },
+      "duration": {
+        "startTimestamp": "2018-10-19T16:07:07Z",
+        "endTimestamp": "2018-10-19T17:43:55.456Z"
+      },
+      "placeConfidence": "HIGH_CONFIDENCE",
+      "centerLatE7": 468982962,
+      "centerLngE7": 75068587,
+      "visitConfidence": 87,
+      "otherCandidateLocations": [{
+        "latitudeE7": 468964180,
+        "longitudeE7": 75053890,
+        "placeId": "ChIJB7YXhS42jkcRlzE60Ustdnk",
+        "address": "3123 Belp, Schweiz",
+        "name": "Belp, Eissel",
+        "locationConfidence": 0.3751017
+      }, {
+        "latitudeE7": 468995472,
+        "longitudeE7": 75039845,
+        "placeId": "ChIJs9MNki02jkcRphuadNBf3lo",
+        "address": "Aemmenmattstrasse 12, 3123 Belp, Schweiz",
+        "name": "Serbisch-Orthodoxe Kirchengemeinde Bern",
+        "locationConfidence": 0.048276708
+      }, {
+        "latitudeE7": 469001503,
+        "longitudeE7": 75041275,
+        "placeId": "ChIJFYGj9C02jkcRvTYVOcdSUC8",
+        "address": "Aemmenmattstrasse 16, 3123 Belp, Schweiz",
+        "name": "Interlabor Belp AG",
+        "locationConfidence": 0.03273676
+      }, {
+        "latitudeE7": 468983520,
+        "longitudeE7": 75058370,
+        "placeId": "ChIJKf3TcC42jkcRHrSCY_tnDXg",
+        "address": "Sägetstrasse 23d, 3123 Belp, Schweiz",
+        "name": "Star Photos",
+        "locationConfidence": 0.026035652
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 91,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }]
+}
