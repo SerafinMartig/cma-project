@@ -70,12 +70,12 @@ Die Datenerhebung erfolgte mittels Android-Smartphones über die Google Maps Tim
 Hierbei wurden Bewegungsdaten von Person A von Januar 2022 bis Mai 2024 und von Person B von April bis Mai 2024 analysiert.
 Die Daten liegen im JSON-Format vor und verwenden das WGS84-Koordinatensystem, welches als Grundlage für die weiterführende Analyse diente.
 Die Standortdaten wurden über die Funktion „Location History (Timeline)“ bei Google und den Exportdienst takeout.google.com extrahiert.
-Nach dem Herunterladen wurden die Daten mittels R und RStudio aufbereitet.
+Nach dem Herunterladen wurden die Daten mittels R und RStudio R 4.3.3 (CRAN, 2024) aufbereitet.
 Die Konvertierung der geografischen Koordinaten von der E7-Notation in Dezimalgrade und die räumliche Aufbereitung waren zentrale Aspekte der Datenverarbeitung.
 Die Daten wurden für jede Person separat extrahiert und in einem geografischen Dataframe mit umgewandelten Zeitstempeln gespeichert.
 Für die räumliche Analyse kamen zusätzliche Datenquellen zum Einsatz.
-SwissBOUNDARIES3D von swisstopo lieferte SHP-Dateien für die Grenzen der untersuchten Gemeinde, die ins WGS84-System konvertiert wurden.
-OpenStreetMap-Daten dienten als Kartenhintergrund in den Visualisierungen.
+SwissBOUNDARIES3D von swisstopo (2024) lieferte SHP-Dateien für die Grenzen der untersuchten Gemeinde, die ins WGS84-System konvertiert wurden. Für die Darstellung der Analyse in Europa, welche sich auch im Code befindet, wird ein Shapefile für europäische Länder von der Technical University of Denmark (2023) verwendet. 
+Für die Resultate im Bericht dienen OpenStreetMap-Daten als Kartenhintergrund in den Visualisierungen.
 Die Auswertung der zeitlichen Bewegungsdaten von Person A umfasst die Jahre 2022 bis 2024, einschliesslich Daten von Reisen innerhalb Europas.
 In den Jahren 2022 und 2023 handelt es sich um Datensätze eines ganzen Jahres.
 Der Datensatz aus dem Jahr 2024 enthält nur Daten der Monate Januar bis Mai.
@@ -105,7 +105,7 @@ Eine Korrelationsanalyse zwischen den Monaten und der zurückgelegten Distanz er
 
 *Abbildung 1 zeigt die monatliche zurückgelegte Distanz von Person A in Kilometern für die Jahre 2022 (n = 135’176), 2023 (n=130’671) und 2024 (n=49’609) aufgeteilt nach Monat.*
 
-Weitere Auswertungen, in denen die Abhängigkeit der zurückgelegten Distanz von der Uhrzeit oder des Wochentages untersucht wurde, sind im Anhang zu finden.
+Weitere Auswertungen, in denen die Abhängigkeit der zurückgelegten Distanz von der Uhrzeit oder des Wochentages untersucht wurde, sind im Anhang zu finden. Auch diese Resultate bestätigen die Diskussion oberhalb.
 
 Abbildung 2 zeigt Unterschiede in den Bewegungsdaten zwischen den beiden Versuchspersonen.
 Bei der Analyse der Verteilung der Koordinatenpunkte zeigt sich, dass sich die Bewegungspunkte grösstenteils auf den Strassen befinden.
@@ -132,8 +132,6 @@ Die Übereinstimmung könnte auf einen gemeinsamen Interessensschwerpunkt oder e
 *Abbildung 3 visualisiert die GPS-Punkte von Person A und Person B. Die Grösse der Punkte variiert entsprechend der Häufigkeit, mit der sich die Personen an diesen Orten aufgehalten haben. Ein grüner Punkt markiert einen Treffpunkt, an dem sich Person A und Person B (Hintergrundkarte von OpenStreetMap).*
 
 Diese Analyse wurde auch mit einem Radius von 250 und 500 Meters durchgeführt, was dazu führte, dass sich die Anzahl Treffen signifikant erhöhten.
-Grafiken dazu sind im Anhang zu finden.
-
 
 ## Diskussion
 
@@ -157,48 +155,98 @@ Ausserdem könnte das Verhältnis von geplanten und zufälligen Treffen ermittel
 Es ist auch zu erwähnen, dass unsere Studie einige Einschränkungen hat.
 Die unterschiedliche Menge an Daten zwischen Person A und Person B könnte unsere Ergebnisse beeinflusst haben.
 Auch die gelegentliche Deaktivierung der GPS-Funktion und die allgemeine Unzuverlässigkeit der Standortdaten aus der Google Maps Timeline könnten die Genauigkeit unserer Analyse beeinträchtigt haben.
-Denn die Genauigkeit von Google Maps Daten hängt massgeblich von der verwendeten Technologie, sowie weiteren Faktoren ab (Macarulla Rodriguez et al. 2018, Parady et al. 2023).
+Denn die Genauigkeit von Google Maps Daten hängt massgeblich von der verwendeten Technologie, sowie weiteren Faktoren ab. Zudem ist auch die Zuordnung der einzelnen Akitvitäten nicht immer eindeutig (Macarulla Rodriguez et al. 2018, Parady et al. 2023).
 Diese technischen Herausforderungen sind kritische Faktoren, die in zukünftigen Studien adressiert werden müssen, um die Qualität und Zuverlässigkeit der gesammelten Daten zu verbessern.
 Zusammenfassend lässt sich sagen, dass unsere Studie wertvolle Einblicke in die Bewegungsmuster von Personen bietet und wichtige Fragen über die Faktoren aufwirft, die diese Muster beeinflussen.
 Zukünftige Forschungen sollten darauf abzielen, die Datenerfassungstechniken zu verbessern, unter anderem auch eine konsequentere Datenaufnahme über einen längerfristigen Zeitraum beider Personen gewährleisten, um eine umfassendere Datengrundlage zu schaffen.
 Dies würde es ermöglichen, die Komplexität menschlicher Bewegungsmuster genauer zu verstehen und zuverlässigere Informationen über die Faktoren zu erhalten, die das Bewegungsverhalten der Menschen beeinflussen.
+
+## Literatur
+
+CRAN (2024): RStudio: Integrated Development Environment for R (Version 4.3.3). [https://cran.r-project.org/; 17.6.2024].
+
+Eagle, Nathan und Pentland, Alex Sandy (2009): Eigenbehaviors: identifying structure in routine.
+In: Behavioral Ecology and Sociobiology 63/7 (Mai).
+S.1057–1066.doi:10.1007/s00265-009-0739-0.
+
+González, Marta C.; Hidalgo, César A.
+und Barabási, Albert-László (2008): Understanding individual human mobility patterns.
+In: Nature 453/7196 (Juni).
+S.779–782.doi:10.1038/nature06958.
+
+Macarulla Rodriguez, Andrea; Tiberius, Christian; Van Bree, Roel und Geradts, Zeno (2018): Google timeline accuracy assessment and error prediction.
+In: Forensic Sciences Research 3/3 (Juli).
+S.240–255.doi:10.1080/20961790.2018.1509187.
+
+OpenStreetMap *OpenStreetMap*.
+In: OpenStreetMap.
+\[https://www.openstreetmap.org/; 21.6.2024\].
+
+Parady, Giancarlos; Suzuki, Keita; Oyama, Yuki und Chikaraishi, Makoto (2023): Activity detection with google maps location history data: Factors affecting joint activity detection probability and its potential application on real social networks.
+In: Travel Behaviour and Society 30 (Januar).
+S.344–357.doi:10.1016/j.tbs.2022.10.010.
+
+Ratti, Carlo; Frenchman, Dennis; Pulselli, Riccardo Maria und Williams, Sarah (2006): Mobile Landscapes: Using Location Data from Cell Phones for Urban Analysis.
+In: Environment and Planning B: Planning and Design 33/5 (Oktober).
+S.727–748.doi:10.1068/b32047.
+
+swisstopo swissBOUNDARIES3D. 
+[https://www.swisstopo.admin.ch/de/landschaftsmodell-swissboundaries3d#swissBOUNDARIES3D---Download; 17.6.2024].
+
+swisstopo (b) REFRAME. [https://www.swisstopo.admin.ch/de/koordinaten-konvertieren-reframe; 17.6.2024].
+
+Technical University of Denmark (2023): Shapefile of European countries. Technical University of Denmark. doi:10.11583/DTU.23686383.v1. [https://data.dtu.dk/articles/dataset/Shapefile_of_European_countries/23686383/1; 17.6.2024].
 
 
 ## Anhang
 
 ![](Bilder/Anhang/Rplot062.png)
 
+
 ![](Bilder/Anhang/Rplot05.png)
 
-![](Bilder\Anhang\155538.png)
 
 ![](Bilder\Anhang\155622.png)
 
+
 ![](Bilder\Anhang\155646.png)
+
 
 ![](Bilder\Anhang\155705.png)
 
+
 ![](Bilder\Anhang\155719.png)
+
 
 ![](Bilder\Anhang\155734.png)
 
+
 ![](Bilder\Anhang\55750.png)
+
 
 ![](Bilder/Anhang/155803.png)
 
+
 ![](Bilder/Anhang/155819.png)
+
 
 ![](Bilder/Anhang/155832.png)
 
+
 ![](Bilder/Anhang/155848.png)
+
 
 ![](Bilder/Anhang/155912.png)
 
+
 ![](Bilder/Anhang/155927.png)
+
 
 ![](Bilder/Anhang/155940.png)
 
+
 ![](Bilder/Anhang/160005.png)
+
 
 ![](Bilder/Anhang/160032.png)
 
